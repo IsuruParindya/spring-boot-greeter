@@ -10,10 +10,10 @@ A simple Spring Boot web application that greets users by name using Thymeleaf.
 
 ## Technologies Used
 
-- Java 17
-- Spring Boot 3.2.8
+- Java 25
+- Spring Boot 3.9.12
 - Thymeleaf
-- Maven
+- Maven 
 - HTML/CSS
 
 ## How to Run
