@@ -10,3 +10,12 @@ input, button {
     margin: 5px;
     border-radius: 10px;
 }
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}

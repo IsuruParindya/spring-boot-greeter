@@ -12,11 +12,15 @@
 
     <p th:text="${message}"></p>
 
-    <!-- Shows all saved names from database -->
     <div th:if="${names != null and !#lists.isEmpty(names)}">
         <h3>Saved Names:</h3>
         <ul>
-            <li th:each="n : ${names}" th:text="${n.name}"></li>
+            <li th:each="n : ${names}">
+                <span th:text="${n.name}"></span>
+                <a th:href="@{/delete/{id}(id=${n.id})}">
+                    <button class="delete-btn">Delete</button>
+                </a>
+            </li>
         </ul>
     </div>
 
