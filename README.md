@@ -21,4 +21,4 @@ A simple Spring Boot web application that greets users by name using Thymeleaf.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/greeting-app.git
+git clone https://github.com/IsuruParindya/greeting-app.git
